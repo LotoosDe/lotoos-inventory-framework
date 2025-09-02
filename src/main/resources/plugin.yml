@@ -1,0 +1,6 @@
+main: org.example.exampleplugin.domain.ExamplePlugin
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: ExampleAuthor
+softdepend: [NetworkKernel]
