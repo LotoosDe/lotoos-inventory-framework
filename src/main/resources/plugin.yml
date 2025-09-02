@@ -1,6 +1,5 @@
-main: org.example.exampleplugin.domain.ExamplePlugin
+main: de.lotoos.inventory.InventoryFramework
 name: ${project.name}
 version: ${project.version}
 description: ${project.description}
-author: ExampleAuthor
-softdepend: [NetworkKernel]
+author: hyperspace_pilot

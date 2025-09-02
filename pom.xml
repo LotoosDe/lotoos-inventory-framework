@@ -4,22 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>example-plugin</artifactId>
-    <name>ExamplePlugin</name>
-    <description>ExamplePlugin as template</description>
-    <version>1.0.0</version>
+    <groupId>de.lotoos</groupId>
+    <artifactId>inventory-framework</artifactId>
+    <name>LoTooS-Inventory-Framework</name>
+    <description>Framework for inventories</description>
+    <version>2.0.1</version>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>23</maven.compiler.source>
+        <maven.compiler.target>23</maven.compiler.target>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <lombok.version>1.18.24</lombok.version>
-        <server-api.version>1.12.2-R0.1-SNAPSHOT</server-api.version>
-        <api.version>1.0.0</api.version>
-        <kernel.version>1.0.0</kernel.version>
-        <lib.version>1.0.0</lib.version>
+        <lombok.version>1.18.38</lombok.version>
+        <server-api.version>1.21.8-R0.1-SNAPSHOT</server-api.version>
     </properties>
 
     <build>
@@ -43,13 +40,6 @@
     </repositories>
 
     <dependencies>
-        <!-- network related -->
-        <dependency>
-            <groupId>de.lotoos</groupId>
-            <artifactId>lotoos-api</artifactId>
-            <version>${api.version}</version>
-            <scope>provided</scope>
-        </dependency>
         <!-- environment related -->
         <dependency>
             <groupId>org.spigotmc</groupId>
